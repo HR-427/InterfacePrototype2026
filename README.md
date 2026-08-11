@@ -2,7 +2,7 @@
 
 This repository contains the Unity 3D prototype developed for my undergraduate dissertation, which investigated the use of augmented reality (AR) interfaces projected onto a vehicle windscreen. The project explores how future in-car interfaces could be designed to improve the driving experience while minimising driver distraction.
 
-Dissertation:
+DISSERTATION:
  - https://drive.google.com/file/d/19RCANeFNXH3u0iXNVoOzOmdU-qEImdUc/view?usp=sharing
 
 OVERVIEW
@@ -15,7 +15,7 @@ The prototype was developed in Unity 3D to compare three different interface lay
 
 Extensive research into existing automotive interfaces and emerging AR Head-Up Display (HUD) technologies informed the design of this prototype. Automotive manufacturers such as BMW and Hyundai Mobis are actively researching and developing windscreen AR systems, helping shape the direction of future vehicle interfaces.
 
-References:
+REFERENCES:
 - BMW AR Head-Up Display:
   https://www.theverge.com/2025/1/7/24335460/bmw-ces-2025-idrive-heads-up-display-ar
 

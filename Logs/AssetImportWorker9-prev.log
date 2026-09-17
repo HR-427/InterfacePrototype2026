@@ -1,0 +1,765 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hafiza" at "2026-09-14T21:42:04.2879518Z"
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15991 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-14T21:42:04Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/hafiz/OneDrive/Documents/InterfacePrototype2026/InterfacePrototype2026
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+54325
+-licensingIpc
+LicenseClient-hafiza
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/hafiz/OneDrive/Documents/InterfacePrototype2026/InterfacePrototype2026
+C:/Users/hafiz/OneDrive/Documents/InterfacePrototype2026/InterfacePrototype2026
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [24264]  Target information:
+
+Player connection [24264]  * "[IP] 192.168.0.15 [Port] 0 [Flags] 2 [Guid] 2219340197 [EditorId] 2219340197 [Version] 1048832 [Id] WindowsEditor(7,_H_Rahman_) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24264] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24264] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hafiz/OneDrive/Documents/InterfacePrototype2026/InterfacePrototype2026/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     7995 MB
+    Driver:   31.0.101.4255
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-hafiza"
+[Licensing::IpcConnector] LicenseClient-hafiza channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hafiza-6000.3.11" at "2026-09-14T21:42:07.9750287Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004496 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              10a135f1b73c4c57be9c19d70618c0c2
+  Correlation Id:          5ce078cdaeeff014a621325577cdbfb1
+  External correlation Id: 5711547364469772313
+  Machine Id:              IYw+UpfriCb3QdPui4rZhOquAz8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-hafiza-6000.3.11" (connect: 0.01s, validation: 0.00s, handshake: 0.76s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-hafiza-6000.3.11-notifications" at "2026-09-14T21:42:08.7386194Z"
+[Licensing::Module] Licensing Background thread has ended after 4.45s
+- Loaded All Assemblies, in  1.538 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.720 seconds
+Domain Reload Profiling: 3251ms
+	BeginReloadAssembly (475ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (205ms)
+	LoadAllAssembliesAndSetupDomain (666ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (652ms)
+			TypeCache.Refresh (643ms)
+				TypeCache.ScanAssembly (585ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1721ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (253ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (313ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (342ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-9Y4C-3YWY-AHYA-9WWZ-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 5773043619592-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  3.153 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.279 seconds
+Domain Reload Profiling: 6415ms
+	BeginReloadAssembly (684ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (141ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (163ms)
+	LoadAllAssembliesAndSetupDomain (2092ms)
+		LoadAssemblies (1349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1116ms)
+			TypeCache.Refresh (723ms)
+				TypeCache.ScanAssembly (688ms)
+			BuildScriptInfoCaches (343ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (3281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (535ms)
+			ProcessInitializeOnLoadAttributes (1559ms)
+			ProcessInitializeOnLoadMethodAttributes (309ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6422 unused Assets / (4.1 MB). Loaded Objects now: 7272.
+Memory consumption went from 166.1 MB to 161.9 MB.
+Total: 31.427000 ms (FindLiveObjects: 1.691500 ms CreateObjectMapping: 1.405200 ms MarkObjects: 20.312100 ms  DeleteObjects: 8.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177702.191235 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 752.mat
+  artifactKey: Guid(5be2943900fa07541998aa0b3a5b8013) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 752.mat using Guid(5be2943900fa07541998aa0b3a5b8013) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '871851c1aa0e92c0d5f81a825e0f70ce') in 0.4061212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 714.mat
+  artifactKey: Guid(4b61ee63fe252ca4f94564f81cf4f081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 714.mat using Guid(4b61ee63fe252ca4f94564f81cf4f081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d8988a634b077231e9f786be0941dd6') in 0.0394662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 760.mat
+  artifactKey: Guid(c91eb7935f323a14f967d0e71a2d26ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 760.mat using Guid(c91eb7935f323a14f967d0e71a2d26ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f6787259e799d62072042c2be5d9355') in 0.0390281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 757.mat
+  artifactKey: Guid(c0df35bf8bc7760469743cb537cba9d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 757.mat using Guid(c0df35bf8bc7760469743cb537cba9d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c791fc364a96c4a42d1a73c1e395dd0') in 0.0690802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 773.mat
+  artifactKey: Guid(266245483ffc53e46957c5ff3f714fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 773.mat using Guid(266245483ffc53e46957c5ff3f714fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ab3b0ea31197352644934d0593c59fb') in 0.0379404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 642.mat
+  artifactKey: Guid(97e54cae1abb3df41a410c1dd39bdd09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 642.mat using Guid(97e54cae1abb3df41a410c1dd39bdd09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '384ea0aef473ffabdb4c285f3fe77cd2') in 0.0200183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 731.mat
+  artifactKey: Guid(8c1aa7e181e59314f9e0690e8b2de4b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 731.mat using Guid(8c1aa7e181e59314f9e0690e8b2de4b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0300df3b9cdfa9cc3e4366537467f45') in 0.0275232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 745.mat
+  artifactKey: Guid(d538591440b02194991ef96fecb4934e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 745.mat using Guid(d538591440b02194991ef96fecb4934e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f70f6fcf7768e0d6eeded016f981b1bb') in 0.0237007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 574.mat
+  artifactKey: Guid(260539fd707d86847b14d70a00e51f7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 574.mat using Guid(260539fd707d86847b14d70a00e51f7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1bc8f4256e3e89e378ae966e7f8a659') in 0.0231363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 781.mat
+  artifactKey: Guid(23d5d42ad43d39746bbd7823b024bc49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 781.mat using Guid(23d5d42ad43d39746bbd7823b024bc49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed7e4421a46a4a59aba54ffaefc1db97') in 0.0919954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 777.mat
+  artifactKey: Guid(af97e9986f17a93498c49c7be54388f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 777.mat using Guid(af97e9986f17a93498c49c7be54388f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60c00b2522a29161b940c8928415d28c') in 0.0283684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 789.mat
+  artifactKey: Guid(92b8c97e8246746488fab1d6ee2a11b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 789.mat using Guid(92b8c97e8246746488fab1d6ee2a11b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c3a49b39948c11b077ca4cd0ae94dae') in 0.0347262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 808.mat
+  artifactKey: Guid(dbcd268b6f742fb4cb58681f8aa5d628) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 808.mat using Guid(dbcd268b6f742fb4cb58681f8aa5d628) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '953076d125928158a3cfc3d5cd11b0d3') in 0.0192679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 806.mat
+  artifactKey: Guid(268c1f41c710a3c4e810be84f11d299a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 806.mat using Guid(268c1f41c710a3c4e810be84f11d299a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50b1f4de14ffb7ca91e92236627998fd') in 0.0234314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 800.mat
+  artifactKey: Guid(69ca85d081b02514a9bae087320ba74a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 800.mat using Guid(69ca85d081b02514a9bae087320ba74a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '390b065192fbafe82642a9b92f3bf88d') in 0.0185104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 774.mat
+  artifactKey: Guid(13040764e3bfa604fab2a8182edaa154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 774.mat using Guid(13040764e3bfa604fab2a8182edaa154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d3bba5637ea2107a92bbca6ab046733') in 0.0188593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 771.mat
+  artifactKey: Guid(cf371802b2814584fb8a7a525cb7d223) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 771.mat using Guid(cf371802b2814584fb8a7a525cb7d223) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5747c1093812a17693bfdd669ef0c4ee') in 0.0202611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 816.mat
+  artifactKey: Guid(888719beb19160c4aa37ca73e0feb76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 816.mat using Guid(888719beb19160c4aa37ca73e0feb76d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d4f5d9c2d1d1776bcf920e30423d40e') in 0.0191577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 813.mat
+  artifactKey: Guid(84e3fd56c202a5a46ad4e1cbde5cbe6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 813.mat using Guid(84e3fd56c202a5a46ad4e1cbde5cbe6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60911e4581a40bea1c9aba1fc40ab54b') in 0.0167871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 832.mat
+  artifactKey: Guid(a9db99123f75b9b498236bec7e7898aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 832.mat using Guid(a9db99123f75b9b498236bec7e7898aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfc76b5bb226f77e8c21535f09c86f00') in 0.0149946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 513.mat
+  artifactKey: Guid(c7f69c371350ce44481f6d2e81d6eca2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 513.mat using Guid(c7f69c371350ce44481f6d2e81d6eca2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07486c07f313db4abac4119292d557f9') in 0.0179088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 528.mat
+  artifactKey: Guid(48dc01c3997377048813293cb2c47165) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 528.mat using Guid(48dc01c3997377048813293cb2c47165) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7a4e54c5849874619f5ee43bdda8d66') in 0.0215561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 617.mat
+  artifactKey: Guid(301d0de769d949541aa9149abe05d498) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 617.mat using Guid(301d0de769d949541aa9149abe05d498) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08285dd1267688bdd5430ddc0978604c') in 0.0301924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 858.mat
+  artifactKey: Guid(beda3fce0977aa6409848d0494e65e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 858.mat using Guid(beda3fce0977aa6409848d0494e65e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4fc2dde4ff09b56e036e96199c4eed8') in 0.0201439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 850.mat
+  artifactKey: Guid(d00cc2d15b6acd6409198b24c0f7e84c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 850.mat using Guid(d00cc2d15b6acd6409198b24c0f7e84c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb8fa7500216c42376cb9f199aa43d30') in 0.0201841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 867.mat
+  artifactKey: Guid(6c6433e3d2f74004ab18993be40403dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 867.mat using Guid(6c6433e3d2f74004ab18993be40403dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebf060261ba18db310f1a026200423d5') in 0.0233696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 848.mat
+  artifactKey: Guid(5305dc60dc51e824cad688ae71b91665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 848.mat using Guid(5305dc60dc51e824cad688ae71b91665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ee10bb0138481afce2ec5b00788f2da') in 0.0180681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 840.mat
+  artifactKey: Guid(424d374975cea1348846ee4b4bc8ab88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 840.mat using Guid(424d374975cea1348846ee4b4bc8ab88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dafb2f1031d41c6c6a96fb85938b2df9') in 0.0194778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 876.mat
+  artifactKey: Guid(06dc6930bebf92943af4a1bd84f4f431) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 876.mat using Guid(06dc6930bebf92943af4a1bd84f4f431) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8e251a702ce0886ba3fea3260aca52d') in 0.0169241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 871.mat
+  artifactKey: Guid(8ab2a0e3288a07f499c5842e197bd0d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 871.mat using Guid(8ab2a0e3288a07f499c5842e197bd0d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '116781b0668da18aa67ab54064c9be91') in 0.0155316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 874.mat
+  artifactKey: Guid(ce8e3f00067382a498a0260f42007bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 874.mat using Guid(ce8e3f00067382a498a0260f42007bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0fd6e55e4bfa3dae99349335456870a') in 0.0180663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 878.mat
+  artifactKey: Guid(a47dd0eca760f3e48b1e8aa651e5f3e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 878.mat using Guid(a47dd0eca760f3e48b1e8aa651e5f3e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4136075cc76bc8a7c18ea538b0f4b0e6') in 0.0212166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 892.mat
+  artifactKey: Guid(ee2e636c4dde16a4dba48a30fb29cc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 892.mat using Guid(ee2e636c4dde16a4dba48a30fb29cc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dcafc733dd621a721adbc5973f332d3d') in 0.0170735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 687.mat
+  artifactKey: Guid(4321271400d889449b660489514a2452) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 687.mat using Guid(4321271400d889449b660489514a2452) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7046e64315fb80f39917cf6e99dacd6') in 0.0175944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 902.mat
+  artifactKey: Guid(bb62627901d1589458676ef79fb19172) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 902.mat using Guid(bb62627901d1589458676ef79fb19172) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a9827724f69756185c3e2c55290f9a4') in 0.0211785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 918.mat
+  artifactKey: Guid(f66a7e53aca2db146aa67f4b2bc66601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 918.mat using Guid(f66a7e53aca2db146aa67f4b2bc66601) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9f9d48eebb68c4bd0c742f0b604cae6') in 0.0198318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 923.mat
+  artifactKey: Guid(34f334ab26a10754f9c1c931cdec82c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 923.mat using Guid(34f334ab26a10754f9c1c931cdec82c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9148f3ba281338cdcaa8bd7d5caf5d7f') in 0.0184568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 901.mat
+  artifactKey: Guid(882010b4cb7ed1c479d4b52f86a7b96e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 901.mat using Guid(882010b4cb7ed1c479d4b52f86a7b96e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f39d0f00f9480a870b2f7eadc3002815') in 0.0210179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 895.mat
+  artifactKey: Guid(b1d7d077859425948bed2ce36caba838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 895.mat using Guid(b1d7d077859425948bed2ce36caba838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a38c0da1dd0d06f03ce0d8b6d9c89da') in 0.0418594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 897.mat
+  artifactKey: Guid(c2a697eff726f8f4892171359af99547) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 897.mat using Guid(c2a697eff726f8f4892171359af99547) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b8f0faaf81be3256bc292ba8e1b95f5') in 0.0537357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 930.mat
+  artifactKey: Guid(81d0cbca7ce4e6742afa01da9ab5d7cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 930.mat using Guid(81d0cbca7ce4e6742afa01da9ab5d7cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8ae1c69d27eeef83d965d3aedcdbd17') in 0.055238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 954.mat
+  artifactKey: Guid(ae4fdcca7b0e4004aaed1b2c555a1b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 954.mat using Guid(ae4fdcca7b0e4004aaed1b2c555a1b0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc81bfc72ea274b57688d09c6b05ec15') in 0.0847714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 958.mat
+  artifactKey: Guid(1f0939d5f388dd44696cd21b1b2a5e9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 958.mat using Guid(1f0939d5f388dd44696cd21b1b2a5e9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cdea61611045b8a163d10a54a937a0e') in 0.0660543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 971.mat
+  artifactKey: Guid(eb4705f8683b5c248b7bfb4009f3f1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 971.mat using Guid(eb4705f8683b5c248b7bfb4009f3f1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0f91d715550b07c80a078c04cc2a7a3') in 0.1023296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001289 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 974.mat
+  artifactKey: Guid(b41c6b714a2041b479e37999eb4911ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 974.mat using Guid(b41c6b714a2041b479e37999eb4911ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '948c458e20cb4219ed4103df6016e16c') in 0.1513025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 941.mat
+  artifactKey: Guid(947324eed7a277d48b0ecc7e0c8d583a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 941.mat using Guid(947324eed7a277d48b0ecc7e0c8d583a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8dbd00e4770eeee6143a9a4ef1e09a3') in 0.0455065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 928.mat
+  artifactKey: Guid(640b62d3887fb324cbd1281f88cab584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 928.mat using Guid(640b62d3887fb324cbd1281f88cab584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d1bef2dd0c1e66d85d829277956c843') in 0.1085153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 965.mat
+  artifactKey: Guid(8c3c807b29febe74fa6aa14eb80dc266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 965.mat using Guid(8c3c807b29febe74fa6aa14eb80dc266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca027e61f6923432c8c275020904bf3c') in 0.0909345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001090 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 988.mat
+  artifactKey: Guid(942dee1cc15d8f844a26c9eb8371db0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 988.mat using Guid(942dee1cc15d8f844a26c9eb8371db0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ebc7aead17e822f691e545af1c815c5') in 0.088685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 990.mat
+  artifactKey: Guid(12c7ac1acc42deb489b2dea32c22f02a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 990.mat using Guid(12c7ac1acc42deb489b2dea32c22f02a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bfe3e30528781ec18b8e2decb19196e') in 0.2242069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 956.mat
+  artifactKey: Guid(1df7846c6e97df5419d64f35e481c25b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 956.mat using Guid(1df7846c6e97df5419d64f35e481c25b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff567d25f1b8a76eb5dd9885b06187b5') in 0.3978036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 934.mat
+  artifactKey: Guid(cdf7c927bdf9ce548b44844b71af9cf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 934.mat using Guid(cdf7c927bdf9ce548b44844b71af9cf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61554c8908d7909d5731a55f3456ce4c') in 0.0895853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 522.mat
+  artifactKey: Guid(7b354a30027579e4eabb1b63e2c89e67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 522.mat using Guid(7b354a30027579e4eabb1b63e2c89e67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f463de3484360f25d61f5d2005de4e84') in 0.0812985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 969.mat
+  artifactKey: Guid(bb342442344306742921c8a784fa5f5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 969.mat using Guid(bb342442344306742921c8a784fa5f5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecc729bf61f79e235498b7745a7c766a') in 0.0866705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 829.mat
+  artifactKey: Guid(73e3b41de9db3014ba6ead41ea62ae46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 829.mat using Guid(73e3b41de9db3014ba6ead41ea62ae46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2484fe70e124a4145722734436117694') in 0.4031615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 815.mat
+  artifactKey: Guid(814206e9cf4b5fc4f8a5e5fbedc55c75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 815.mat using Guid(814206e9cf4b5fc4f8a5e5fbedc55c75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc2f98c512ab5d018f803ead86dc9f10') in 0.0859701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 775.mat
+  artifactKey: Guid(9f52b60e9a7830e41abf531f110bdcea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 775.mat using Guid(9f52b60e9a7830e41abf531f110bdcea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8b3b877218fd23a27826e2dfb707622') in 0.0694574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 674.mat
+  artifactKey: Guid(7a8f78354d72cd24788ca9f2fc4b40a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 674.mat using Guid(7a8f78354d72cd24788ca9f2fc4b40a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0258ecbe027a0b33b14c9ee1723bce6') in 0.0961562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 804.mat
+  artifactKey: Guid(48b160a1be0a318418820ce086b3ae07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 804.mat using Guid(48b160a1be0a318418820ce086b3ae07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6182491cde54322adab4043cb49c172d') in 0.08072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 693.mat
+  artifactKey: Guid(ab0c791cfe9ca5842a150a3a5a7d4dd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 693.mat using Guid(ab0c791cfe9ca5842a150a3a5a7d4dd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47bd6085837e8e8e9a98ddbffbdcb7b9') in 0.0679169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 680.mat
+  artifactKey: Guid(82cd61f92c584dd4a948739a3dff74a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 680.mat using Guid(82cd61f92c584dd4a948739a3dff74a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7236800b8c82affed91e75fea5700f73') in 0.0704321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 973.mat
+  artifactKey: Guid(8cbfc7b50fecee74f9ea58a9e766b787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 973.mat using Guid(8cbfc7b50fecee74f9ea58a9e766b787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d887401d42fba187980dd11fe7fd513') in 0.0538137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 894.mat
+  artifactKey: Guid(0631f02741d669c4eaf83ac99d3a7ecd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 894.mat using Guid(0631f02741d669c4eaf83ac99d3a7ecd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f44c53d4a3986d760aa9cc9219fb1931') in 0.0980754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 770.mat
+  artifactKey: Guid(3f06d6815af2acc489d5ea4959b4b2d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 770.mat using Guid(3f06d6815af2acc489d5ea4959b4b2d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dec3a292693e554b646b5c7b92c03518') in 0.1004367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 701.mat
+  artifactKey: Guid(0282c1a3d4c07e042abd487a34c7b1b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 701.mat using Guid(0282c1a3d4c07e042abd487a34c7b1b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '779552cab416e4deadaaa5012446f931') in 0.0675617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 611.mat
+  artifactKey: Guid(5d1b9e47063103b4ea5bb1a7378bce05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Grass And Flowers Pack 1/Ground Textures/Materials/Groundplants 1_D 611.mat using Guid(5d1b9e47063103b4ea5bb1a7378bce05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd32a18d650eae0c64aaaca742524c20') in 0.1229391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
